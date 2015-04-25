@@ -1,2 +1,2 @@
-# elon-catalog
+# ElonCatalog
 OctoberCMS catalog plugin
