@@ -4,6 +4,7 @@ use System\Classes\PluginBase;
 
 /**
  * Elon Catalog Plugin Information File
+ * 
  * @author Denis Dolgopolov <dolgopolovdc@gmail.com>
  *
  */
