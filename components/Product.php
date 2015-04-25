@@ -1,4 +1,4 @@
-<?php namespace Elon\ElonCatalog\Components;
+<?php namespace Elon\Catalog\Components;
 
 use Cms\Classes\ComponentBase;
 

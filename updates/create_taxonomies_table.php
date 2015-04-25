@@ -1,4 +1,4 @@
-<?php namespace Elon\ElonCatalog\Updates;
+<?php namespace Elon\Catalog\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
@@ -13,7 +13,7 @@ class CreateTaxonomiesTable extends Migration
 
     public function up()
     {
-        Schema::create('elon_elon-catalog_taxonomies', function($table)
+        Schema::create('elon_catalog_taxonomies', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
@@ -23,7 +23,7 @@ class CreateTaxonomiesTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('elon_elon-catalog_taxonomies');
+        Schema::dropIfExists('elon_catalog_taxonomies');
     }
 
 }

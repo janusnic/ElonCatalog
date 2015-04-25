@@ -1,4 +1,4 @@
-<?php namespace Elon\ElonCatalog;
+<?php namespace Elon\Catalog;
 
 use System\Classes\PluginBase;
 
