@@ -22,7 +22,7 @@ class Plugin extends PluginBase
             'name'        => 'Elon Catalog',
             'description' => 'Product catalog.',
             'author'      => 'Trofim Jugastrov, Dolgopolov Denis, Alexander Khramov, Natalia Kosman',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-shopping-cart'
         ];
     }
 
