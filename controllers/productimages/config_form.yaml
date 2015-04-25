@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Productimage
+
+# Model Form Field configuration
+form: $/elon/catalog/models/productimage/fields.yaml
+
+# Model Class name
+modelClass: Elon\Catalog\Models\Productimage
+
+# Default redirect location
+defaultRedirect: elon/catalog/productimages
+
+# Create page
+create:
+    title: Create Productimage
+    redirect: elon/catalog/productimages/update/:id
+    redirectClose: elon/catalog/productimages
+
+# Update page
+update:
+    title: Edit Productimage
+    redirect: elon/catalog/productimages
+    redirectClose: elon/catalog/productimages
+
+# Preview page
+preview:
+    title: Preview Productimage
