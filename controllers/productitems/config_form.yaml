@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product Item
+
+# Model Form Field configuration
+form: $/elon/catalog/models/productitem/fields.yaml
+
+# Model Class name
+modelClass: Elon\Catalog\Models\ProductItem
+
+# Default redirect location
+defaultRedirect: elon/catalog/productitems
+
+# Create page
+create:
+    title: Create Product Item
+    redirect: elon/catalog/productitems/update/:id
+    redirectClose: elon/catalog/productitems
+
+# Update page
+update:
+    title: Edit Product Item
+    redirect: elon/catalog/productitems
+    redirectClose: elon/catalog/productitems
+
+# Preview page
+preview:
+    title: Preview Product Item
