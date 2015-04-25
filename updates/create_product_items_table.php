@@ -17,6 +17,13 @@ class CreateProductItemsTable extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->string('title')->index();
+            $table->string('slug')->index()->unique();
+            $table->longText('description');
+            $table->decimal('price', 10, 2)->default(0)->nullable();
+            $table->boolean('is_enabled')->default(false);
+            $table->boolean('is_stockable')->default(false);
+            $table->integer('stock')->default(0)->nullable();
             $table->timestamps();
         });
     }
