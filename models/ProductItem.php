@@ -37,6 +37,13 @@ class ProductItem extends Model
     public $morphOne = [];
     public $morphMany = [];
     public $attachOne = [];
-    public $attachMany = [];
+    public $attachMany = ['images' => ['System\Models\File']];
+    
+
+
+    public function getSquareThumb($size, $image)
+    {
+        return $image->getThumb($size, $size, ['mode' => 'crop']);
+    }
 
 }

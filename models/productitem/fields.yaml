@@ -17,42 +17,37 @@ fields:
             field: title
             type: slug
 
-    toolbar:
-        type: partial
-        path: product_toolbar
-        cssClass: collapse-visible
+    description:
+        label: Description
+        type: richeditor
+        span: left
 
-secondaryTabs:
-    stretch: true
-    fields:
-        description:
-            tab: Manage
-            label: Description
-            type: richeditor
-            span: left
+    is_enabled:
+        label: Product Visibility
+        type: switch
+        span: right
 
-        is_enabled:
-            tab: Manage
-            label: Product Visibility
-            type: switch
-            span: right
+    is_stockable:
+        label: Stock Tracking
+        type: switch
+        span: right
 
-        is_stockable:
-            tab: Manage
-            label: Stock Tracking
-            type: switch
-            span: right
+    stock:
+        label: Quantity
+        type: number
+        span: right
+        cssClass: checkbox-align
 
-        stock:
-            tab: Manage
-            label: Quantity
-            type: number
-            span: right
-            cssClass: checkbox-align
+    images:
+        span: right
+        label: Images
+        type: Backend\FormWidgets\FileUpload
+        mode: image
+        imageHeight: 120
+        imageWidth: 120
 
-        price:
-            tab: Manage
-            label: Price
-            type: number
-            span: left
-            cssClass: padded
+    price:
+        label: Price
+        type: number
+        span: left
+        cssClass: padded
