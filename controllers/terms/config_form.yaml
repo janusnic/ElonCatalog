@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Term
+
+# Model Form Field configuration
+form: $/elon/catalog/models/term/fields.yaml
+
+# Model Class name
+modelClass: Elon\Catalog\Models\Term
+
+# Default redirect location
+defaultRedirect: elon/catalog/terms
+
+# Create page
+create:
+    title: Create Term
+    redirect: elon/catalog/terms/update/:id
+    redirectClose: elon/catalog/terms
+
+# Update page
+update:
+    title: Edit Term
+    redirect: elon/catalog/terms
+    redirectClose: elon/catalog/terms
+
+# Preview page
+preview:
+    title: Preview Term

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Taxonomy
+
+# Model Form Field configuration
+form: $/elon/catalog/models/taxonomy/fields.yaml
+
+# Model Class name
+modelClass: Elon\Catalog\Models\Taxonomy
+
+# Default redirect location
+defaultRedirect: elon/catalog/taxonomies
+
+# Create page
+create:
+    title: Create Taxonomy
+    redirect: elon/catalog/taxonomies/update/:id
+    redirectClose: elon/catalog/taxonomies
+
+# Update page
+update:
+    title: Edit Taxonomy
+    redirect: elon/catalog/taxonomies
+    redirectClose: elon/catalog/taxonomies
+
+# Preview page
+preview:
+    title: Preview Taxonomy
