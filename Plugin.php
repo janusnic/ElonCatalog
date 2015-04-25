@@ -30,25 +30,25 @@ class Plugin extends PluginBase
     {
         return [
             'catalog' => [
-                'label'       => 'Каталог',
+                'label'       => 'Catalog',
                 'url'         => \Backend::url('elon/catalog/products'),
                 'icon'        => 'icon-shopping-cart',
                 'order'       => 500,
                 'sideMenu' => [
                     'productitems' => [
-                        'label'       => 'Товары',
+                        'label'       => 'Products',
                         'icon'        => 'icon-list-alt',
                         'url'         => \Backend::url('elon/catalog/productitems'),
                     ],
-                    'taxonomies' => [
-                        'label'       => 'Таксономии',
+                    'categories' => [
+                        'label'       => 'Categories',
                         'icon'        => 'icon-list-alt',
-                        'url'         => \Backend::url('elon/catalog/taxonomies'),
+                        'url'         => \Backend::url('elon/catalog/categories'),
                     ],
-                    'terms' => [
-                        'label'       => 'Термы',
+                    'tags' => [
+                        'label'       => 'Tags',
                         'icon'        => 'icon-list-alt',
-                        'url'         => \Backend::url('elon/catalog/terms'),
+                        'url'         => \Backend::url('elon/catalog/tags'),
                     ],
                 ]
             ]
