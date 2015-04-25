@@ -1,4 +1,4 @@
-<?php namespace Elon\ElonCatalog\Models;
+<?php namespace Elon\Catalog\Models;
 
 use Model;
 
@@ -14,7 +14,7 @@ class ProductItem extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'elon_elon-catalog_product_items';
+    public $table = 'elon_catalog_product_items';
 
     /**
      * @var array Guarded fields

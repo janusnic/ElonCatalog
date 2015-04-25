@@ -1,4 +1,4 @@
-<?php namespace Elon\ElonCatalog\Models;
+<?php namespace Elon\Catalog\Models;
 
 use Model;
 
@@ -14,7 +14,7 @@ class Taxonomy extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'elon_elon-catalog_taxonomies';
+    public $table = 'elon_catalog_taxonomies';
 
     /**
      * @var array Guarded fields

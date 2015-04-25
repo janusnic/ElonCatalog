@@ -1,1 +1,7 @@
-1.0.1: First version of elon-catalog
+1.0.1:
+  - Run table migrations
+  - create_product_images_table.php
+  - create_product_items_table.php
+  - create_products_table.php
+  - create_taxonomies_table.php
+  - create_terms_table.php
