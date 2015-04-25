@@ -4,9 +4,9 @@ use BackendMenu;
 use Backend\Classes\Controller;
 
 /**
- * Taxonomies Back-end Controller
+ * Categories Back-end Controller
  */
-class Taxonomies extends Controller
+class Categories extends Controller
 {
     public $implement = [
         'Backend.Behaviors.FormController',
@@ -20,6 +20,6 @@ class Taxonomies extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Elon.Catalog', 'catalog', 'taxonomies');
+        BackendMenu::setContext('Elon.Catalog', 'catalog', 'categories');
     }
 }

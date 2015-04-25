@@ -3,18 +3,15 @@
 use Model;
 
 /**
- * Term Model
- * 
- * @author Denis Dolgopolov <dolgopolovdc@gmail.com>
- * 
+ * Category Model
  */
-class Term extends Model
+class Category extends Model
 {
 
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'elon_catalog_terms';
+    public $table = 'elon_catalog_categories';
 
     /**
      * @var array Guarded fields

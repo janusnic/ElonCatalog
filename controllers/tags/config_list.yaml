@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/elon/catalog/models/term/columns.yaml
+list: $/elon/catalog/models/tag/columns.yaml
 
 # Model Class name
-modelClass: Elon\Catalog\Models\Term
+modelClass: Elon\Catalog\Models\Tag
 
 # List Title
-title: Manage Terms
+title: Manage Tags
 
 # Link URL for each record
-recordUrl: elon/catalog/terms/update/:id
+recordUrl: elon/catalog/tags/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

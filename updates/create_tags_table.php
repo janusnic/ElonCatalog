@@ -3,27 +3,24 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-/**
- * 
- * @author Denis Dolgopolov <dolgopolovdc@gmail.com>
- *
- */
-class CreateTaxonomiesTable extends Migration
+class CreateTagsTable extends Migration
 {
 
     public function up()
     {
-        Schema::create('elon_catalog_taxonomies', function($table)
+        Schema::create('elon_catalog_tags', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->string('name');
+            $table->string('slug')->index()->unique();
             $table->timestamps();
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('elon_catalog_taxonomies');
+        Schema::dropIfExists('elon_catalog_tags');
     }
 
 }

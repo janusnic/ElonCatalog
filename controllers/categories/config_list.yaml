@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/elon/catalog/models/taxonomy/columns.yaml
+list: $/elon/catalog/models/category/columns.yaml
 
 # Model Class name
-modelClass: Elon\Catalog\Models\Taxonomy
+modelClass: Elon\Catalog\Models\Category
 
 # List Title
-title: Manage Taxonomies
+title: Manage Categories
 
 # Link URL for each record
-recordUrl: elon/catalog/taxonomies/update/:id
+recordUrl: elon/catalog/categories/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

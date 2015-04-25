@@ -4,9 +4,9 @@ use BackendMenu;
 use Backend\Classes\Controller;
 
 /**
- * Terms Back-end Controller
+ * Tags Back-end Controller
  */
-class Terms extends Controller
+class Tags extends Controller
 {
     public $implement = [
         'Backend.Behaviors.FormController',
@@ -20,6 +20,6 @@ class Terms extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Elon.Catalog', 'catalog', 'terms');
+        BackendMenu::setContext('Elon.Catalog', 'catalog', 'tags');
     }
 }

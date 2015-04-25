@@ -3,18 +3,15 @@
 use Model;
 
 /**
- * Taxonomy Model
- * 
- * @author Denis Dolgopolov <dolgopolovdc@gmail.com>
- * 
+ * Tag Model
  */
-class Taxonomy extends Model
+class Tag extends Model
 {
 
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'elon_catalog_taxonomies';
+    public $table = 'elon_catalog_tags';
 
     /**
      * @var array Guarded fields

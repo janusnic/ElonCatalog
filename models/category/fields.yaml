@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+
+    slug:
+        label: Slug
+
+    description:
+        label: Description
+        type: richeditor
