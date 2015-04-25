@@ -5,4 +5,14 @@
 columns:
     id:
         label: ID
-        searchable: true
+    title:
+        label: Title
+    slug:
+        label: Slug
+    created_at:
+        label: Date Created
+        type: date
+        invisible: true
+    updated_at:
+        label: Last Update
+        type: date
