@@ -4,9 +4,9 @@ use BackendMenu;
 use Backend\Classes\Controller;
 
 /**
- * Productitems Back-end Controller
+ * Product Images Back-end Controller
  */
-class Productitems extends Controller
+class ProductImages extends Controller
 {
     public $implement = [
         'Backend.Behaviors.FormController',
@@ -20,6 +20,6 @@ class Productitems extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Elon.Catalog', 'catalog', 'productitems');
+        BackendMenu::setContext('Elon.Catalog', 'catalog', 'productimages');
     }
 }

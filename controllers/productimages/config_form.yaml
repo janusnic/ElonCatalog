@@ -3,29 +3,29 @@
 # ===================================
 
 # Record name
-name: Productimage
+name: Product Image
 
 # Model Form Field configuration
 form: $/elon/catalog/models/productimage/fields.yaml
 
 # Model Class name
-modelClass: Elon\Catalog\Models\Productimage
+modelClass: Elon\Catalog\Models\ProductImage
 
 # Default redirect location
 defaultRedirect: elon/catalog/productimages
 
 # Create page
 create:
-    title: Create Productimage
+    title: Create Product Image
     redirect: elon/catalog/productimages/update/:id
     redirectClose: elon/catalog/productimages
 
 # Update page
 update:
-    title: Edit Productimage
+    title: Edit Product Image
     redirect: elon/catalog/productimages
     redirectClose: elon/catalog/productimages
 
 # Preview page
 preview:
-    title: Preview Productimage
+    title: Preview Product Image

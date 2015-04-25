@@ -6,10 +6,10 @@
 list: $/elon/catalog/models/productimage/columns.yaml
 
 # Model Class name
-modelClass: Elon\Catalog\Models\Productimage
+modelClass: Elon\Catalog\Models\ProductImage
 
 # List Title
-title: Manage Productimages
+title: Manage Product Images
 
 # Link URL for each record
 recordUrl: elon/catalog/productimages/update/:id

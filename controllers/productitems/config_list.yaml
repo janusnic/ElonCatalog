@@ -6,10 +6,10 @@
 list: $/elon/catalog/models/productitem/columns.yaml
 
 # Model Class name
-modelClass: Elon\Catalog\Models\Productitem
+modelClass: Elon\Catalog\Models\ProductItem
 
 # List Title
-title: Manage Productitems
+title: Manage Product Items
 
 # Link URL for each record
 recordUrl: elon/catalog/productitems/update/:id
