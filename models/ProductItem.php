@@ -32,7 +32,18 @@ class ProductItem extends Model
     public $hasOne = [];
     public $hasMany = [];
     public $belongsTo = [];
-    public $belongsToMany = [];
+    public $belongsToMany = [
+        'categories' => [
+            'Elon\Catalog\Models\Category',
+            'table' => 'elon_catalog_cat_prod',
+            'order' => 'name',
+        ],
+        'tags' => [
+            'Elon\Catalog\Models\Tag',
+            'table' => 'elon_catalog_tag_prod',
+            'order' => 'name',
+        ],
+    ];
     public $morphTo = [];
     public $morphOne = [];
     public $morphMany = [];

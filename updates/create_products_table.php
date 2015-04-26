@@ -3,11 +3,6 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-/**
- * 
- * @author Denis Dolgopolov <dolgopolovdc@gmail.com>
- *
- */
 class CreateProductsTable extends Migration
 {
 
