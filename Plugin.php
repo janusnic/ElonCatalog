@@ -54,5 +54,15 @@ class Plugin extends PluginBase
             ]
         ];
     }
+    
+    public function registerComponents()
+    {
+        return [
+            'Elon\Catalog\Components\ProductList' => 'ProductList',
+            'Elon\Catalog\Components\Product' => 'Product',
+            'Elon\Catalog\Components\Categories' => 'Categories',
+            'Elon\Catalog\Components\Tags' => 'Tags'
+        ];
+    }
 
 }
