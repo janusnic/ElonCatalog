@@ -31,7 +31,7 @@ class Plugin extends PluginBase
         return [
             'catalog' => [
                 'label'       => 'Catalog',
-                'url'         => \Backend::url('elon/catalog/products'),
+                'url'         => \Backend::url('elon/catalog/productitems'),
                 'icon'        => 'icon-shopping-cart',
                 'order'       => 500,
                 'sideMenu' => [
