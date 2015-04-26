@@ -41,7 +41,7 @@ fields:
     images:
         span: right
         label: Images
-        type: Backend\FormWidgets\FileUpload
+        type: fileupload
         mode: image
         imageHeight: 120
         imageWidth: 120
