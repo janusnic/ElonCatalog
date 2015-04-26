@@ -1,6 +1,7 @@
 <?php namespace Elon\Catalog\Components;
 
 use Cms\Classes\ComponentBase;
+use Elon\Catalog\Models\Category;
 
 /**
  * 
@@ -16,6 +17,13 @@ class Categories extends ComponentBase
             'name'        => 'Categories Component',
             'description' => 'No description provided yet...'
         ];
+    }
+    
+    public function categories()
+    {
+        $categories = Category::all();
+        
+        return $categories;
     }
 
     public function defineProperties()

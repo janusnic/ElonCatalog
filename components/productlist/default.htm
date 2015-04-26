@@ -1,3 +1,15 @@
-<p>This is the default markup for component ProductList</p>
-
-<small>You can delete this file if you want</small>
+        <article class="products-container">
+            <ul class="products-list">
+                {% for product in ProductList.products %}
+                <li class="products-item">
+                    <a href="/shop/{{ product.slug }}" class="products-item-link">
+                        <img class="products-item-image" src="http://yootheme.com/demo/themes/wordpress/2015/salt/wp-content/uploads/hoodie_02_black_front.jpg">
+                        <h3 class="products-item-header">{{ product.title }}</h3>
+                        <span class="products-item-price">€{{ product.price }}</span>
+                    </a>
+                    <a href="/shop/{{ product.slug }}" class="cart-button">More</a>
+                </li>
+                
+                {% endfor %}
+            </ul>
+        </article>
