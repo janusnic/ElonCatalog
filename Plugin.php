@@ -37,7 +37,7 @@ class Plugin extends PluginBase
                 'sideMenu' => [
                     'productitems' => [
                         'label'       => 'Products',
-                        'icon'        => 'icon-list-alt',
+                        'icon'        => 'icon-tags',
                         'url'         => \Backend::url('elon/catalog/productitems'),
                     ],
                     'categories' => [
