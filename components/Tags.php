@@ -2,19 +2,14 @@
 
 use Cms\Classes\ComponentBase;
 
-/**
- * 
- * @author Denis Dolgopolov <dolgopolovdc@gmail.com>
- *
- */
-class ProductList extends ComponentBase
+class Tags extends ComponentBase
 {
 
     public function componentDetails()
     {
         return [
-            'name'        => 'ProductList Component',
-            'description' => 'Component from products list'
+            'name'        => 'Tags Component',
+            'description' => 'No description provided yet...'
         ];
     }
 
