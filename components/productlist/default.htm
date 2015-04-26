@@ -1,17 +1,8 @@
-        <aside class="products-categories">
-            <h3 class="products-categories-header">Product Categories</h3>
-            <ul class="products-categories-list">
-                <li class="products-categories-title"><a href="#" class="products-categories-title-link">Hoodie</a></li>
-                <li class="products-categories-title"><a href="#" class="products-categories-title-link">Other </a></li>
-                <li class="products-categories-title"><a href="#" class="products-categories-title-link">T-Shirt</a></li>
-                <li class="products-categories-title"><a href="#" class="products-categories-title-link">Sweatshots</a></li>
-            </ul>
-        </aside>
         <article class="products-container">
             <ul class="products-list">
                 {% for product in ProductList.products %}
                 <li class="products-item">
-                    <a href="#" class="products-item-link">
+                    <a href="/shop/{{ product.slug }}" class="products-item-link">
                         <img class="products-item-image" src="http://yootheme.com/demo/themes/wordpress/2015/salt/wp-content/uploads/hoodie_02_black_front.jpg">
                         <h3 class="products-item-header">{{ product.title }}</h3>
                         <span class="products-item-price">€{{ product.price }}</span>
