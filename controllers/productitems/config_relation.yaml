@@ -1,0 +1,23 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+categories:
+    label: Categories
+    view:
+        list: $/elon/catalog/models/category/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/elon/catalog/models/category/fields.yaml
+        list: $/elon/catalog/models/category/columns.yaml
+        recordsPerPage: 10
+
+tags:
+    label: Tags
+    view:
+        list: $/elon/catalog/models/tag/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/elon/catalog/models/tag/fields.yaml
+        list: $/elon/catalog/models/tag/columns.yaml
+        recordsPerPage: 10

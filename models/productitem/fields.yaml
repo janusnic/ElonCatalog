@@ -51,3 +51,11 @@ fields:
         type: number
         span: left
         cssClass: padded
+
+    categories:
+        label: Categories
+        type: relation
+
+    tags:
+        label: Tags
+        type: relation
